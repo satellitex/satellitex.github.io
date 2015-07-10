@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "New Blog"
+date:   2015-07-10
+categories: jekyll update
+---
+
+#ブログできた！
+これに書いてあることまんまやる。
+http://jekyllrb-ja.github.io/
+だけど、既存のディレクトリにいれたかったのでちょっと変更
+環境はdebainなのでapt-get
+
+{% highlight shell %}
+sudo apt-get install jekyll
+jekyll new tempj
+cd tempj
+cp * ../ブログを貼りたいところ
+{% endhighlight %}
+
+であとは github に push　する。
