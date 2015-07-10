@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Jul 2015 11:04:34 +0900</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2015 11:04:34 +0900</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2015 11:36:56 +0900</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2015 11:36:56 +0900</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -28,6 +28,32 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <pubDate>Fri, 10 Jul 2015 20:03:46 +0900</pubDate>
         <link>http://yourdomain.com/jekyll/update/2015/07/10/welcome-to-jekyll/</link>
         <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/07/10/welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>New Blog</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;ブログできた！&lt;/h1&gt;
+&lt;p&gt;これに書いてあることまんまやる。
+http://jekyllrb-ja.github.io/
+だけど、既存のディレクトリにいれたかったのでちょっと変更
+環境はdebainなのでapt-get&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;sudo apt-get install jekyll
+jekyll new tempj
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;tempj
+cp * ../ブログを貼りたいところ&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;であとは github に push　する。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2015 00:00:00 +0900</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/07/10/newblog/</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/07/10/newblog/</guid>
         
         
         <category>jekyll</category>

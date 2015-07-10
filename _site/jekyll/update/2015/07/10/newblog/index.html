@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Your awesome title</title>
+    <title>New Blog</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <link rel="canonical" href="http://yourdomain.com/">
+    <link rel="canonical" href="http://yourdomain.com/jekyll/update/2015/07/10/newblog/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -53,28 +53,30 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="home">
+      <div class="post">
 
-  <h1>Posts</h1>
+  <header class="post-header">
+    <h1>New Blog</h1>
+    <p class="meta">Jul 10, 2015</p>
+  </header>
 
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">Jul 10, 2015</span>
-        <a class="post-link" href="/jekyll/update/2015/07/10/welcome-to-jekyll/">Welcome to Jekyll!</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Jul 10, 2015</span>
-        <a class="post-link" href="/jekyll/update/2015/07/10/newblog/">New Blog</a>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+  <h1 id="section">ブログできた！</h1>
+<p>これに書いてあることまんまやる。
+http://jekyllrb-ja.github.io/
+だけど、既存のディレクトリにいれたかったのでちょっと変更
+環境はdebainなのでapt-get</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<div class="highlight"><pre><code class="language-shell" data-lang="shell">sudo apt-get install jekyll
+jekyll new tempj
+<span class="nb">cd </span>tempj
+cp * ../ブログを貼りたいところ</code></pre></div>
+
+<p>であとは github に push　する。</p>
+
+  </article>
 
 </div>
-
       </div>
     </div>
 
